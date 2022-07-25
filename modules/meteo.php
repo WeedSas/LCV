@@ -72,7 +72,7 @@ $tmax = $previsionsMeteo[2];
             <p><?= $tmin[0] ?>°C</p>
             <p><?= $tmax[0] ?>°C</p>
         </div>
-        <p class="meteoTitle"><?= $traductions->translate("aujourd'hui") ?></p>
+        <p class="meteoTitle">Aujourd'hui</p>
     </div>
 
     <div class="meteoItem">
@@ -81,7 +81,7 @@ $tmax = $previsionsMeteo[2];
             <p><?= $tmin[1] ?>°C</p>
             <p><?= $tmax[1] ?>°C</p>
         </div>
-        <p class="meteoTitle"><?= $traductions->translate("demain") ?></p>
+        <p class="meteoTitle">Demain</p>
     </div>
 
     <div class="meteoItem">
@@ -90,6 +90,6 @@ $tmax = $previsionsMeteo[2];
             <p><?= $tmin[2] ?>°C</p>
             <p><?= $tmax[2] ?>°C</p>
         </div>
-        <p class="meteoTitle"><?= $traductions->translate("après-demain") ?></p>
+        <p class="meteoTitle">Après-demain</p>
     </div>
 </div>

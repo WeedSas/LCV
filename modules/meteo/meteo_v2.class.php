@@ -118,7 +118,7 @@ class meteoV2
     public function recuperation($name)
     {
         //On récupère le json en fonction du nom passé dans la méthode
-        $json = json_decode(file_get_contents(__DIR__ . "/../../meteo/previsions/" . $name . ".json"));
+        $json = json_decode(file_get_contents(__DIR__ . "\previsions/" . $name . ".json"));
         $results[$name] = $json;
         return $results;
     }
