@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.152" height="254.331" viewBox="0 0 80.152 254.331">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Tracé_1126" data-name="Tracé 1126" d="M1.67,0H78.483c.922,0,1.67,4.009,1.67,8.955v236.42c0,4.946-.748,8.955-1.67,8.955H1.67c-.922,0-1.67-4.009-1.67-8.955V8.955C0,4.009.748,0,1.67,0Z" transform="translate(1570 1021.669)" fill="#81b2dc"/>
+    </clipPath>
+  </defs>
+  <g id="ico-actes" transform="translate(-1570 -1021.669)" clip-path="url(#clip-path)">
+    <g id="Groupe_158" data-name="Groupe 158" transform="matrix(0.978, -0.208, 0.208, 0.978, 1154.419, 787.188)">
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="20.808" cy="20.808" r="20.808" transform="translate(326.882 451.174)" fill="#81b2dc"/>
+      <g id="Groupe_154" data-name="Groupe 154" transform="translate(232 323)">
+        <path id="Rectangle_11" data-name="Rectangle 11" d="M20.191,6.057A14.15,14.15,0,0,0,6.057,20.191V197.872a14.15,14.15,0,0,0,14.134,14.134h119.42a14.15,14.15,0,0,0,14.134-14.134V20.191A14.15,14.15,0,0,0,139.611,6.057H20.191m0-6.057h119.42A20.191,20.191,0,0,1,159.8,20.191V197.872a20.191,20.191,0,0,1-20.191,20.191H20.191A20.191,20.191,0,0,1,0,197.872V20.191A20.191,20.191,0,0,1,20.191,0Z" fill="#4d6f97"/>
+        <path id="Ligne_1" data-name="Ligne 1" d="M49.8,4.557H1.529a3.029,3.029,0,0,1,0-6.057H49.8a3.029,3.029,0,0,1,0,6.057Z" transform="translate(52.571 39.254)" fill="#4d6f97"/>
+        <path id="Ligne_2" data-name="Ligne 2" d="M116.386,4.557H1.529a3.029,3.029,0,1,1,0-6.057H116.386a3.029,3.029,0,1,1,0,6.057Z" transform="translate(20.943 60.894)" fill="#4d6f97"/>
+        <path id="Ligne_5" data-name="Ligne 5" d="M116.386,4.557H1.529a3.029,3.029,0,1,1,0-6.057H116.386a3.029,3.029,0,1,1,0,6.057Z" transform="translate(20.943 104.173)" fill="#4d6f97"/>
+        <path id="Ligne_6" data-name="Ligne 6" d="M43.144,4.557H1.529a3.029,3.029,0,1,1,0-6.057H43.144a3.029,3.029,0,0,1,0,6.057Z" transform="translate(20.943 125.813)" fill="#4d6f97"/>
+        <path id="Ligne_7" data-name="Ligne 7" d="M18.175,4.557H1.529a3.029,3.029,0,1,1,0-6.057H18.175a3.029,3.029,0,0,1,0,6.057Z" transform="translate(20.943 144.124)" fill="#4d6f97"/>
+        <path id="Ligne_8" data-name="Ligne 8" d="M11.516,4.557H1.529a3.029,3.029,0,0,1,0-6.057h9.988a3.029,3.029,0,0,1,0,6.057Z" transform="translate(52.571 144.124)" fill="#4d6f97"/>
+        <path id="Ligne_3" data-name="Ligne 3" d="M79.765,4.557H1.529a3.029,3.029,0,1,1,0-6.057H79.765a3.029,3.029,0,1,1,0,6.057Z" transform="translate(20.943 82.534)" fill="#4d6f97"/>
+        <path id="Ligne_4" data-name="Ligne 4" d="M21.5,4.557H1.529a3.029,3.029,0,0,1,0-6.057H21.5a3.029,3.029,0,0,1,0,6.057Z" transform="translate(115.826 82.534)" fill="#4d6f97"/>
+        <path id="Tracé_6" data-name="Tracé 6" d="M6.057,6.057V17.075l5.164-3.446a6.057,6.057,0,0,1,6.867.1l4.152,2.946V6.057H6.057M0,0H28.3V28.4L14.584,18.668,0,28.4Z" transform="translate(101.541 164.734)" fill="#4d6f97"/>
+        <path id="Ellipse_2_-_Contour" data-name="Ellipse 2 - Contour" d="M20.808,6.057a14.75,14.75,0,1,0,14.75,14.75,14.767,14.767,0,0,0-14.75-14.75m0-6.057A20.808,20.808,0,1,1,0,20.808,20.808,20.808,0,0,1,20.808,0Z" transform="translate(94.882 128.174)" fill="#4d6f97"/>
+      </g>
+      <circle id="Ellipse_63" data-name="Ellipse 63" cx="17" cy="17" r="17" transform="translate(330.951 455.48)" fill="#4d6f97"/>
+      <path id="Tracé_1135" data-name="Tracé 1135" d="M338.052,492.032l.18,15.833,9.825-4.519,9.18,5.336.787-16.594Z" fill="#4d6f97"/>
+    </g>
+  </g>
+</svg>

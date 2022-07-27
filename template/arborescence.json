@@ -3,10 +3,12 @@
         "id": "urba",
         "titre": "URBANISME",
         "image": {
-            "icone": "img/menu/ico-urba.svg"
+            "icone": "img/assets/ico-urba.svg"
         },
         "classes": [
-            "gauche"
+            "rubrique",
+            "gauche",
+            "imgG"
         ],
         "sousRubriques": [
             {
@@ -15,7 +17,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -24,7 +28,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -33,7 +39,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -42,7 +50,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -51,7 +61,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -60,7 +72,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             }
         ]
@@ -69,10 +83,12 @@
         "id": "consMu",
         "titre": "CONSEIL MUNICIPAL",
         "image": {
-            "icone": "img/menu/ico-conseil.svg"
+            "icone": "img/assets/ico-conseil.svg"
         },
         "classes": [
-            "droite"
+            "rubrique",
+            "droite",
+            "imgD"
         ],
         "sousRubriques": [
             {
@@ -81,7 +97,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -90,7 +108,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -99,7 +119,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -108,7 +130,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             }
         ]
@@ -117,10 +141,12 @@
         "id": "acteRegMa",
         "titre": "ACTES RÈGLEMENTAIRES MAIRIE",
         "image": {
-            "icone": "img/menu/ico-acte_mairie.svg"
+            "icone": "img/assets/ico-actes.svg"
         },
         "classes": [
-            "gauche"
+            "rubrique",
+            "gauche",
+            "imgG"
         ],
         "sousRubriques": [
             {
@@ -129,7 +155,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -138,7 +166,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -147,7 +177,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -156,7 +188,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             }
         ]
@@ -165,10 +199,12 @@
         "id": "etatCiv",
         "titre": "ÉTAT CIVIL",
         "image": {
-            "icone": "img/menu/ico-etat_civil.svg"
+            "icone": "img/assets/ico-election.svg"
         },
         "classes": [
-            "droite"
+            "rubrique",
+            "droite",
+            "imgD"
         ],
         "sousRubriques": [
             {
@@ -177,7 +213,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -186,7 +224,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -195,7 +235,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             }
         ]
@@ -204,10 +246,12 @@
         "id": "acteRegPre",
         "titre": "ACTES RÈGLEMENTAIRES PRÉFECTURE",
         "image": {
-            "icone": "img/menu/ico-acte_pref.svg"
+            "icone": "img/assets/ico-actes.svg"
         },
         "classes": [
-            "gauche"
+            "rubrique",
+            "gauche",
+            "imgG"
         ],
         "sousRubriques": [
             {
@@ -216,7 +260,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -225,7 +271,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -234,7 +282,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -243,7 +293,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             }
         ]
@@ -252,10 +304,12 @@
         "id": "comCom",
         "titre": "COMMUNAUTÉ DE COMMUNES DU GOLFE DE SAINT-TROPEZ",
         "image": {
-            "icone": "img/menu/ico-comcom.svg"
+            "icone": "img/assets/ico-com.svg"
         },
         "classes": [
-            "droite"
+            "rubrique",
+            "droite",
+            "imgG"
         ],
         "sousRubriques": [
             {
@@ -264,7 +318,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -273,7 +329,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -282,7 +340,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -291,7 +351,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             }
         ]
@@ -300,10 +362,12 @@
         "id": "enviro",
         "titre": "ENVIRONNEMENT",
         "image": {
-            "icone": "img/menu/ico-envir.svg"
+            "icone": "img/assets/ico-eau.svg"
         },
         "classes": [
-            "gauche"
+            "rubrique",
+            "gauche",
+            "imgG"
         ],
         "sousRubriques": [
             {
@@ -312,7 +376,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -321,7 +387,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -330,7 +398,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             },
             {
@@ -339,7 +409,9 @@
                 "image": { 
                     "icone" : "FALSE"
                  },
-                "classes": [],
+                "classes": [
+                    "sousRubrique"
+                ],
                 "sousRubriques": []
             }
         ]
@@ -348,10 +420,12 @@
         "id": "infos",
         "titre": "INFORMATIONS MAIRIE",
         "image": {
-            "icone": "img/menu/ico-infos.svg"
+            "icone": "img/assets/ico-info.svg"
         },
         "classes": [
-            "droite"
+            "rubrique",
+            "droite",
+            "imgD"
         ],
         "sousRubriques": []
     }

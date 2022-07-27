@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="191.406" height="155.5" viewBox="0 0 191.406 155.5">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Tracé_1124" data-name="Tracé 1124" d="M3.988,0H187.419c2.2,0,3.988,2.451,3.988,5.475V150.025c0,3.024-1.785,5.475-3.988,5.475H3.988c-2.2,0-3.988-2.451-3.988-5.475V5.475C0,2.451,1.785,0,3.988,0Z" transform="translate(3553.594 866.5)" fill="#81b2dc"/>
+    </clipPath>
+  </defs>
+  <g id="ico-election" transform="translate(-3553.594 -866.5)" clip-path="url(#clip-path)">
+    <g id="Groupe_157" data-name="Groupe 157" transform="translate(2820.593 56.771)">
+      <g id="Groupe_40" data-name="Groupe 40" transform="translate(733 809.729)">
+        <path id="Rectangle_12" data-name="Rectangle 12" d="M23.462,5.027A18.434,18.434,0,0,0,5.027,23.462V95.1a18.434,18.434,0,0,0,18.434,18.434H177.638A18.434,18.434,0,0,0,196.072,95.1V23.462A18.434,18.434,0,0,0,177.638,5.027H23.462m0-5.027H177.638A23.462,23.462,0,0,1,201.1,23.462V95.1a23.462,23.462,0,0,1-23.462,23.462H23.462A23.462,23.462,0,0,1,0,95.1V23.462A23.462,23.462,0,0,1,23.462,0Z" transform="translate(0 82.948)" fill="#4d6f97"/>
+        <path id="Ligne_9" data-name="Ligne 9" d="M123.009,3.527h-122a2.514,2.514,0,1,1,0-5.027h122a2.514,2.514,0,0,1,0,5.027Z" transform="translate(38.802 111.834)" fill="#4d6f97"/>
+        <path id="Ligne_10" data-name="Ligne 10" d="M200.449,3.527H0V-1.5H200.449Z" transform="translate(0.196 135.37)" fill="#4d6f97"/>
+        <path id="Tracé_9" data-name="Tracé 9" d="M.352,0H127.839V77.277L34.423,78.685,13.67,66.7,0,58.811Z" transform="translate(37.874 63.92) rotate(-30)" fill="#4d6f97"/>
+        <path id="Tracé_9_-_Contour" data-name="Tracé 9 - Contour" d="M5.35,5.027l-.3,50.891,30.69,17.719,87.077-1.312V5.027H5.35M.352,0H127.839V77.277L34.423,78.685,0,58.811Z" transform="translate(37.874 63.92) rotate(-30)" fill="#4d6f97"/>
+      </g>
+      <g id="Icon_feather-check-circle" data-name="Icon feather-check-circle" transform="matrix(0.755, -0.656, 0.656, 0.755, 809.12, 873.574)">
+        <path id="Tracé_10" data-name="Tracé 10" d="M24.766,49.528q-.461,0-.923-.017a24.764,24.764,0,1,1,11-47.365,2.251,2.251,0,1,1-1.832,4.112A20.26,20.26,0,0,0,7.766,35.791,20.26,20.26,0,0,0,45.023,24.775v-2.07a2.251,2.251,0,1,1,4.5,0v2.071A24.77,24.77,0,0,1,24.766,49.528Z" transform="translate(0 0)" fill="#81b2dc"/>
+        <path id="Tracé_11" data-name="Tracé 11" d="M9,27.036a2.251,2.251,0,0,1-1.592-.659L.659,19.623A2.251,2.251,0,0,1,3.843,16.44L9,21.6,29.923.66a2.251,2.251,0,1,1,3.185,3.182L10.6,26.376a2.251,2.251,0,0,1-1.592.66Z" transform="translate(15.758 4.517)" fill="#81b2dc"/>
+      </g>
+    </g>
+  </g>
+</svg>
