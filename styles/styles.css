@@ -1,13 +1,164 @@
+/****** GÉNÉRAL ******/
+@font-face {
+	font-family: 'AvenirPro 350';
+	src: url("police/AvenirLTStd-light.otf") format("opentype");
+}
+@font-face {
+	font-family: 'AvenirPro Regular';
+	src: url("police/AvenirLTStd-Roman.otf") format("opentype");
+}
+@font-face {
+	font-family: 'AvenirPro Bold';
+	src: url("police/AvenirLTStd-Medium.otf") format("opentype");
+}
+
+body {
+	font-family: 'AvenirPro 350';
+    font-size: 15px;
+
+    margin: 0px;
+    padding: 0px;
+
+    width: 1080px;
+    height: 1920px;
+
+    overflow: hidden;
+
+    background-image: url(../img/assets/bg-footer.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 1725px;
+}
+p, h1, h2, h3, h4, h5 {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/****** HEADER ******/
+#header {
+    width: 888px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+
+}
+#logo img {
+
+}
+#infos {
+    width: 650px;
+    height: 328px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+#date {
+    width: 410px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/assets/bg-date.svg);
+
+    font-family: 'AvenirPro Regular';
+    font-size: 25px;
+    color: white;
+}
+#meteo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+.meteoItem {
+    text-align: center;
+}
+.meteoItem img {
+    height: 150px;
+    width: 150px;
+}
+.meteoTemperatures {
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.meteoTitle {
+    font-size: 20px;
+    position: relative;
+    top: 23px;
+}
+
+/****** MENU PRINCIPAL ******/
+#menu_principal {
+    width: 990px;
+    height: 1190px;
+
+    margin: 0 auto;
+}
 .rubrique {
     width: 480px;
     height: 275px;
-    
-    background-color: #81B2DC;
-
     border-radius: 10px;
+
+    font-family: 'AvenirPro Bold';
+    color: white;
+}
+.gauche {
+    left: 45px;
+}
+.imgG {
+
+}
+.droite {
+    right: 45px;
+}
+.imgD {
+
+}
+.btn-rubrique {
+    width: 480px;
+    height: 275px;
+
+    background-color: #81B2DC;
+    border-radius: 10px;
+
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+}
+.btn-rubrique img{
+    
+}
+.sousRubrique {
 }
 
-.rubrique .imgG {
+/****** FOOTER ******/
+#footer {
 }
-.rubrique .imgD {
+#pmrInfo {
+
+}
+.btn {
+
+}
+.btn img {
+
+}
+#labels {
+
+}
+#mentions {
+    height: 40px;
+
+    background-color: black;
+
+    font-family: 'AvenirPro 350';
+    color: white;
 }

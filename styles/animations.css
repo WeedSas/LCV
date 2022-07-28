@@ -1,0 +1,31 @@
+/****** POSITIONNEMENT INITIAL ******/
+[data-ru=urba]{
+    position: absolute;
+}
+[data-ru=consMu]{
+    position: absolute;
+}
+[data-ru=acteRegMa]{
+    position: absolute;
+    top: 633px;
+}
+[data-ru=etatCiv]{
+    position: absolute;
+    top: 633px;
+}
+[data-ru=acteRegPre]{
+    position: absolute;
+    top: 938px;
+}
+[data-ru=comCom]{
+    position: absolute;
+    top: 938px;
+}
+[data-ru=enviro]{
+    position: absolute;
+    top: 1243px;
+}
+[data-ru=infos]{
+    position: absolute;
+    top: 1243px;
+}

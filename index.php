@@ -14,6 +14,7 @@ $_SESSION['borne'] = "la_croix_valmer";
     <meta charset="utf-8">
     <title>Application interactive La Croix Valmer</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/animations.css">
     <script src="scripts/jquery.js"></script>
     <script src="scripts/script.js"></script>
 </head>

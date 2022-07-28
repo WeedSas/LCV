@@ -64,32 +64,36 @@ $tmax = $previsionsMeteo[2];
 
 ?>
 
-<div class="meteo-container">
-
+<div id="meteo-container">
+    
+    <img src="img/assets/separateur.svg">
     <div class="meteoItem">
+        <p class="meteoTitle">AUJOURD'HUI</p>
         <img src="img/meteo/<?= $tab_meteo[$meteo[0]]['fond'] ?>" alt="meteo"/>
         <div class="meteoTemperatures">
             <p><?= $tmin[0] ?>°C</p>
             <p><?= $tmax[0] ?>°C</p>
         </div>
-        <p class="meteoTitle">Aujourd'hui</p>
     </div>
 
+    <img src="img/assets/separateur.svg">
     <div class="meteoItem">
+        <p class="meteoTitle">DEMAIN</p>
         <img src="img/meteo/<?= $tab_meteo[$meteo[1]]['fond'] ?>" alt="meteo"/>
         <div class="meteoTemperatures">
             <p><?= $tmin[1] ?>°C</p>
             <p><?= $tmax[1] ?>°C</p>
         </div>
-        <p class="meteoTitle">Demain</p>
     </div>
 
+    <img src="img/assets/separateur.svg">
     <div class="meteoItem">
+        <p class="meteoTitle">APRÈS-DEMAIN</p>
         <img src="img/meteo/<?= $tab_meteo[$meteo[2]]['fond'] ?>" alt="meteo"/>
         <div class="meteoTemperatures">
             <p><?= $tmin[2] ?>°C</p>
             <p><?= $tmax[2] ?>°C</p>
         </div>
-        <p class="meteoTitle">Après-demain</p>
     </div>
+    <img src="img/assets/separateur.svg">
 </div>

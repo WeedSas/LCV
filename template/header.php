@@ -3,14 +3,13 @@
 ?>
 <div id="header">
     <div id="logo">
-
+        <img src="img/assets/logo.svg">
     </div>
     <div id="infos">
         <div id="date">
-            
+            <?=date('l d F Y');?>
+            <?=date('h:i');?>
         </div>
-        <div id="meteo">
-            <?php include "modules/meteo.php"; ?>
-        </div>
+        <?php include "modules/meteo.php"; ?>
     </div>
 </div>

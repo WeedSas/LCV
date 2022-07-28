@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="60" viewBox="0 0 410 60">
+  <g id="Groupe_236" data-name="Groupe 236" transform="translate(-574 -36)">
+    <g id="Groupe_179" data-name="Groupe 179" transform="translate(-56 -16)">
+      <path id="Rectangle_28" data-name="Rectangle 28" d="M10,0H400a10,10,0,0,1,10,10V52a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(630 52)" fill="#81b2dc"/>
+      <path id="ico-agenda" d="M-1194.049,43.414l-13.155-4.022V36.256l14.033,4.29,4.824-15.78L-1207.2,19V11.324a2.988,2.988,0,0,1,.968.13l1.434.438.877-2.868,2.869.877-.878,2.869,11.476,3.508.877-2.868,2.869.877-.877,2.869,1.434.438a3.009,3.009,0,0,1,1.993,3.746l-6.141,20.083a3.012,3.012,0,0,1-2.875,2.122A2.976,2.976,0,0,1-1194.049,43.414Zm-1.791-14.664.878-2.869,2.869.877-.877,2.869ZM-1201.577,27l.877-2.868,2.868.877-.877,2.869Zm-5.627-1.72v-.4l.766-2.506,2.869.877-.878,2.869Z" transform="translate(1837.204 50.215)" fill="#4d6f97"/>
+    </g>
+    <g id="Groupe_193" data-name="Groupe 193" transform="translate(319 -224.639)">
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="69" height="8" transform="translate(255 312.639)" fill="#ec7642"/>
+      <rect id="Rectangle_32-2" data-name="Rectangle 32" width="68" height="8" transform="translate(324 312.639)" fill="#d49e00"/>
+      <rect id="Rectangle_32-3" data-name="Rectangle 32" width="70" height="8" transform="translate(392 312.639)" fill="#b93615"/>
+      <rect id="Rectangle_32-4" data-name="Rectangle 32" width="69" height="8" transform="translate(462 312.639)" fill="#f3dbab"/>
+      <rect id="Rectangle_32-5" data-name="Rectangle 32" width="65" height="8" transform="translate(531 312.639)" fill="#81b2dc"/>
+      <rect id="Rectangle_32-6" data-name="Rectangle 32" width="69" height="8" transform="translate(596 312.639)" fill="#4d6f97"/>
+    </g>
+  </g>
+</svg>
