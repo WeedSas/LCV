@@ -10,13 +10,18 @@ $arbo = new Arborescence($arborescence);
 
 <div id="menu_principal">
     <?php foreach ($arbo->getTabRubriques() as $rubrique) { ?>
-        <div class="<?=$rubrique->getClasses();?>" data-ru="<?=$rubrique->getId();?>">
-            <div class="btn-rubrique" style="background-image: url(<?=$rubrique->getImage();?>);">
-                <h2><?=$rubrique->getTitre();?></h2>
+        <div class="<?=$rubrique->getClasses();?>" name="<?=$rubrique->getId();?>">
+            <div class="btn-rubrique">
+                <div id="test">
+                    <h2><?=$rubrique->getTitre();?></h2>
+                </div>
+                <div id="icone" style="border: 1px solid black;">
+                    <img src="<?=$rubrique->getImage();?>">
+                </div>
             </div>
 
             <?php foreach ($rubrique->getSousRubriques() as $sousRubrique) { ?>
-                <div class="<?=$sousRubrique->getClasses();?>" data-soru=""><h3><?=$sousRubrique->getTitre();?></h3></div>
+                <div class="<?=$sousRubrique->getClasses();?>" name=""><h3><?=$sousRubrique->getTitre();?></h3></div>
             <?php } ?>
         </div>
     <?php } ?>

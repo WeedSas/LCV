@@ -1,4 +1,4 @@
-/****** GÉNÉRAL ******/
+/****** FONTS ******/
 @font-face {
 	font-family: 'AvenirPro 350';
 	src: url("police/AvenirLTStd-light.otf") format("opentype");
@@ -12,6 +12,7 @@
 	src: url("police/AvenirLTStd-Medium.otf") format("opentype");
 }
 
+/****** GÉNÉRAL ******/
 body {
 	font-family: 'AvenirPro 350';
     font-size: 15px;
@@ -36,31 +37,30 @@ p, h1, h2, h3, h4, h5 {
 
 /****** HEADER ******/
 #header {
-    width: 888px;
+    width: 990px;
+    height: 353px;
     margin: 0 auto;
+    margin-top: 43px;
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
-#logo {
-
-}
-#logo img {
-
-}
-#infos {
-    width: 650px;
-    height: 328px;
-
+#head-right {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-evenly;
+
+    justify-content: space-between;
+}
+#head-right-bottom {
+    width: 780px;
+    height: 52px;
+
+    display: flex;
+    justify-content: space-between;
 }
 #date {
     width: 410px;
-    height: 60px;
+    height: 52px;
 
     display: flex;
     align-items: center;
@@ -75,25 +75,23 @@ p, h1, h2, h3, h4, h5 {
 #meteo-container {
     display: flex;
     justify-content: space-between;
-    width: 650px;
+    width: 370px;
 }
 .meteoItem {
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 .meteoItem img {
-    height: 150px;
-    width: 150px;
+    height: 75px;
+    width: 75px;
+
+    position: relative;
+    top: 2px;
 }
 .meteoTemperatures {
     position: relative;
-    bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-.meteoTitle {
-    font-size: 20px;
-    position: relative;
-    top: 23px;
+    right: 10px;
+    top: 15px;
 }
 
 /****** MENU PRINCIPAL ******/
@@ -102,11 +100,13 @@ p, h1, h2, h3, h4, h5 {
     height: 1190px;
 
     margin: 0 auto;
+    margin-top: 32px;
 }
 .rubrique {
+    position: absolute;
+
     width: 480px;
     height: 275px;
-    border-radius: 10px;
 
     font-family: 'AvenirPro Bold';
     color: white;
@@ -114,24 +114,25 @@ p, h1, h2, h3, h4, h5 {
 .gauche {
     left: 45px;
 }
-.imgG {
-    
-}
 .droite {
     right: 45px;
 }
-.imgD>.btn-rubrique {
-    background-position: 100% 100%;
-}
 .btn-rubrique {
+    z-index: 3;
+
+    position: absolute;
     width: 480px;
     height: 275px;
 
     background-color: #81B2DC;
-    border-radius: 10px;
 
-    background-repeat: no-repeat;
-    background-position: 0% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#test {
+    height: 187px;
 
     display: flex;
     align-items: center;
@@ -142,29 +143,52 @@ p, h1, h2, h3, h4, h5 {
 
     text-align: center;
 }
-.btn-rubrique img{
-    
+#icone {
+    height: 88px;
+    width: 480;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sousRubrique {
+    z-index: 2;
+
+    width: 480px;
+    height: 275px;
+
+    position: absolute;
+    top: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /****** FOOTER ******/
 #footer {
+    height: 362px;
 }
 #pmrInfo {
+    width: 990px;
+    margin: 0 auto;
+    padding-top: 40px;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.btn {
-
-}
-.btn img {
-
-}
-#labels {
-
+#btn img {
+    padding-right: 10px;
 }
 #mentions {
     height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     background-color: black;
 

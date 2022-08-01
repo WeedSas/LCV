@@ -2,7 +2,7 @@
 if (!isset($_SESSION)) {
     session_start();
 }
-
+include "php/fonctions.php";
 include "config.php";
 $_SESSION['borne'] = "la_croix_valmer";
 

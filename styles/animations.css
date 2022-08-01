@@ -1,31 +1,23 @@
 /****** POSITIONNEMENT INITIAL ******/
-[data-ru=urba]{
-    position: absolute;
+[name=urba] {
 }
-[data-ru=consMu]{
-    position: absolute;
+[name=consMu] {
 }
-[data-ru=acteRegMa]{
-    position: absolute;
-    top: 633px;
+[name=acteRegMa] {
+    top: 703px;
 }
-[data-ru=etatCiv]{
-    position: absolute;
-    top: 633px;
+[name=etatCiv] {
+    top: 703px;
 }
-[data-ru=acteRegPre]{
-    position: absolute;
-    top: 938px;
+[name=acteRegPre] {
+    top: 998px;
 }
-[data-ru=comCom]{
-    position: absolute;
-    top: 938px;
+[name=comCom] {
+    top: 998px;
 }
-[data-ru=enviro]{
-    position: absolute;
-    top: 1243px;
+[name=enviro] {
+    top: 1293px;
 }
-[data-ru=infos]{
-    position: absolute;
-    top: 1243px;
+[name=infos] {
+    top: 1293px;
 }

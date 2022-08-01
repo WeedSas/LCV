@@ -304,7 +304,7 @@
         "id": "comCom",
         "titre": "COMMUNAUTÉ DE COMMUNES DU GOLFE DE SAINT-TROPEZ",
         "image": {
-            "icone": "img/assets/ico-com.svg"
+            "icone": ""
         },
         "classes": [
             "rubrique",
@@ -418,7 +418,7 @@
     },
     {
         "id": "infos",
-        "titre": "INFORMATIONS MAIRIE",
+        "titre": "VRAC'INFO",
         "image": {
             "icone": "img/assets/ico-info.svg"
         },
