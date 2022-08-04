@@ -60,5 +60,5 @@ function dateFr() {
             $moisFR = $tabMoisFR[$key];
         }
     }
-    return $jourFR.date(' d ').$moisFR.date(' Y');
+    return $jourFR.date(' d ').$moisFR.date(' Y').' '.'|'.' ';
 }

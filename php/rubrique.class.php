@@ -5,6 +5,7 @@ Class Rubrique {
     private $_titre;
     private $_image;
     private $_classes;
+    private $_color;
     private $_sousRubriques = array();
 
     function __construct($rubrique)
@@ -13,6 +14,7 @@ Class Rubrique {
         $this->_titre = $rubrique->{'titre'};
         $this->_image = $rubrique->{'image'};
         $this->_classes = $rubrique->{'classes'};
+        $this->_color = $rubrique->{'color'};
         foreach ($rubrique->{'sousRubriques'} as $sousRubrique) {
             $this->_sousRubriques[] = new Rubrique($sousRubrique);
         }
@@ -29,6 +31,10 @@ Class Rubrique {
     function getClasses(){
         $classes = implode(' ',$this->_classes);
         return $classes;
+    }
+
+    function getColor() {
+        return $this->_color;
     }
 
     function getImage(){

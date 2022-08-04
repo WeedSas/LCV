@@ -27,13 +27,12 @@ body {
 
     background-image: url(../img/assets/bg-footer.svg);
     background-repeat: no-repeat;
-    background-position: 0px 1725px;
+    background-position: 25px 1725px;
 }
 p, h1, h2, h3, h4, h5 {
     padding: 0px;
     margin: 0px;
 }
-
 
 /****** HEADER ******/
 #header {
@@ -124,8 +123,6 @@ p, h1, h2, h3, h4, h5 {
     width: 480px;
     height: 275px;
 
-    background-color: #81B2DC;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -139,6 +136,11 @@ p, h1, h2, h3, h4, h5 {
     justify-content: center;
 }
 .btn-rubrique h2 {
+    width: 326px;
+
+    text-align: center;
+}
+.sousRubrique h3 {
     width: 326px;
 
     text-align: center;
@@ -166,15 +168,53 @@ p, h1, h2, h3, h4, h5 {
     align-items: center;
     justify-content: center;
 }
+#navigation {
+    width: 380px;
+    position: absolute;
+    top: 1458px;
+
+    display: flex;
+    justify-content: space-between;
+}
+#accueil {
+    width: 182px;
+    height: 75px;
+
+    position: absolute;
+    left: -250px;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url(../img/assets/btn-accueil.svg);
+}
+#retour {
+    width: 182px;
+    height: 75px;
+
+    position: absolute;
+    left: -250px;
+
+    display: flex;
+    align-items: center;
+
+    width: 182px;
+    height: 75px;
+
+    background-image: url(../img/assets/btn-retour.svg);
+}
+#navigation>div>h3 {
+    padding-left: 70px;
+    color: white;
+}
 
 /****** FOOTER ******/
 #footer {
-    height: 362px;
+    height: 265px;
 }
 #pmrInfo {
     width: 990px;
     margin: 0 auto;
-    padding-top: 40px;
 
     display: flex;
     align-items: center;

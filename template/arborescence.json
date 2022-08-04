@@ -10,71 +10,84 @@
             "gauche",
             "imgG"
         ],
+        "color": "#D16617",
         "sousRubriques": [
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "AVIS DE DÉPÔT PC-PA",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRgauche"
                 ],
+                "color": "#D16617",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "AVIS DE DÉPÔT DP",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#D16617",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "ARRÊTÉS PC-PA",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRgauche"
                 ],
+                "color": "#D16617",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "ARRÊTÉS DP",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#D16617",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlThree",
                 "titre": "ENQÊTES PUBLIQUES CONSULTATIONS",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRgauche"
                 ],
+                "color": "#D16617",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlThree",
                 "titre": "DÉLIBÉRATIONS",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#D16617",
                 "sousRubriques": []
             }
         ]
@@ -90,9 +103,10 @@
             "droite",
             "imgD"
         ],
+        "color": "#A62611",
         "sousRubriques": [
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "CONVOCATION",
                 "image": { 
                     "icone" : "FALSE"
@@ -100,21 +114,24 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#A62611",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "LISTE DES DÉLIBÉRATIONS",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#A62611",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "DÉLIBÉRATIONS",
                 "image": { 
                     "icone" : "FALSE"
@@ -122,17 +139,20 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#A62611",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "PROCÈS-VERBAUX",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#A62611",
                 "sousRubriques": []
             }
         ]
@@ -148,9 +168,10 @@
             "gauche",
             "imgG"
         ],
+        "color": "#40608D",
         "sousRubriques": [
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "DÉCISIONS DU MAIRE",
                 "image": { 
                     "icone" : "FALSE"
@@ -158,21 +179,24 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#40608D",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "ARRÊTÉS DU MAIRE",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#40608D",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "ARRÊTÉS DU MAIRE: REGISTRE POLICE MUNICIPALE",
                 "image": { 
                     "icone" : "FALSE"
@@ -180,17 +204,20 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#40608D",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "DÉLIBÉRATIONS OFFICE DE TOURISME",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#40608D",
                 "sousRubriques": []
             }
         ]
@@ -206,9 +233,10 @@
             "droite",
             "imgD"
         ],
+        "color": "#EA6238",
         "sousRubriques": [
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "PUBLICATION DES BANS MARIAGE",
                 "image": { 
                     "icone" : "FALSE"
@@ -216,21 +244,24 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#EA6238",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "AVIS DE DÉCÈS",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#EA6238",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "ÉLECTIONS",
                 "image": { 
                     "icone" : "FALSE"
@@ -238,6 +269,7 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#EA6238",
                 "sousRubriques": []
             }
         ]
@@ -246,16 +278,17 @@
         "id": "acteRegPre",
         "titre": "ACTES RÈGLEMENTAIRES PRÉFECTURE",
         "image": {
-            "icone": "img/assets/ico-actes.svg"
+            "icone": "img/assets/ico-actes-red.svg"
         },
         "classes": [
             "rubrique",
             "gauche",
             "imgG"
         ],
+        "color": "#A62611",
         "sousRubriques": [
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "ENVIRONNEMENT",
                 "image": { 
                     "icone" : "FALSE"
@@ -263,21 +296,24 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#A62611",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "SANTÉ",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#A62611",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "RÉGLEMENTATION",
                 "image": { 
                     "icone" : "FALSE"
@@ -285,17 +321,20 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#A62611",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "DIVERS",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#A62611",
                 "sousRubriques": []
             }
         ]
@@ -311,9 +350,10 @@
             "droite",
             "imgG"
         ],
+        "color": "#D16617",
         "sousRubriques": [
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "CONVOCATION",
                 "image": { 
                     "icone" : "FALSE"
@@ -321,21 +361,24 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#D16617",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "LISTE DES DÉLIBÉRATIONS",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#D16617",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "DÉLIBÉRATIONS",
                 "image": { 
                     "icone" : "FALSE"
@@ -343,17 +386,20 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#D16617",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "PROCÈS-VERBAUX",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#D16617",
                 "sousRubriques": []
             }
         ]
@@ -369,9 +415,10 @@
             "gauche",
             "imgG"
         ],
+        "color": "#639ED8",
         "sousRubriques": [
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "CONTRÔLE SANITAIRE: EAUX BEIGNADE ARS",
                 "image": { 
                     "icone" : "FALSE"
@@ -379,21 +426,24 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#639ED8",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlOne",
                 "titre": "CONTRÔLE SANITAIRE: AUTO SURVEILLANCE QEB",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#639ED8",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "CONTRÔLE SANITAIRE: EAU POTABLE",
                 "image": { 
                     "icone" : "FALSE"
@@ -401,17 +451,20 @@
                 "classes": [
                     "sousRubrique"
                 ],
+                "color": "#639ED8",
                 "sousRubriques": []
             },
             {
-                "id": "",
+                "id": "lvlTwo",
                 "titre": "CONTRÔLE SANITAIRE: EAU PISCINE",
                 "image": { 
                     "icone" : "FALSE"
                  },
                 "classes": [
-                    "sousRubrique"
+                    "sousRubrique",
+                    "sousRdroite"
                 ],
+                "color": "#639ED8",
                 "sousRubriques": []
             }
         ]
@@ -427,6 +480,7 @@
             "droite",
             "imgD"
         ],
+        "color": "#EA6238",
         "sousRubriques": []
     }
 ]
