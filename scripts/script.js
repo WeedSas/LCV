@@ -14,46 +14,10 @@ window.onload = function () {
 // Animations //
 $(function () {
 
-    // Urbanisme //
-    $("[name='urba']").click(function () {
-        animateRubrique("[name='urba']");
-        return idRubrique = "[name='urba']";
-    });
-
-    // Conseil municipal //
-    $("[name='consMu']").click(function () {
-        animateRubrique("[name='consMu']");
-        return idRubrique = "[name='consMu']";
-    });
-
-    // Actes Mairie //
-    $("[name='acteRegMa']").click(function () {
-        animateRubrique("[name='acteRegMa']");
-        return idRubrique = "[name='acteRegMa']";
-    });
-
-    // État Civil //
-    $("[name='etatCiv']").click(function () {
-        animateRubrique("[name='etatCiv']");
-        return idRubrique = "[name='etatCiv']";
-    });
-
-    // Actes Préfecture //
-    $("[name='acteRegPre']").click(function () {
-        animateRubrique("[name='acteRegPre']");
-        return idRubrique = "[name='acteRegPre']";
-    });
-
-    // ComCom Saint-Tropez //
-    $("[name='comCom']").click(function () {
-        animateRubrique("[name='comCom']");
-        return idRubrique = "[name='comCom']";
-    });
-
-    // Environnement //
-    $("[name='enviro']").click(function () {
-        animateRubrique("[name='enviro']");
-        return idRubrique = "[name='enviro']";
+    // clic sur rubrique //
+    $(".rubrique").click(function () {
+        animateRubrique("[name='"+$(this).attr("name")+"']");
+        return idRubrique = "[name='"+$(this).attr("name")+"']";
     });
 
     // Vrac'Info //

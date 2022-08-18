@@ -7,7 +7,7 @@
     </div>
     <div id="head-right">
         <div id="head-right-top">
-            <img src="img/assets/header.png">
+            <img src="img/assets/header.jpg">
         </div>
         <div id="head-right-bottom">
             <div id="date">
