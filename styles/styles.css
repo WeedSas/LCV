@@ -239,3 +239,223 @@ p, h1, h2, h3, h4, h5 {
     font-family: 'AvenirPro 350';
     color: white;
 }
+
+/*******explorateur de documents*******/
+
+
+/***liste des documents***/
+
+.items_multimedia {
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+}
+
+.content_file {
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+    border: solid 2px white;
+}
+
+.items_name {
+    width: 216px;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    bottom: 5px;
+    line-height: 50px;
+}
+
+.fiche_img {
+    width: 100%;
+}
+
+.image_doc {
+    width: 100%;
+    object-fit: contain;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-style: none;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+}
+
+
+/**pagination des miniatures**/
+
+.pagePrevious {
+    background-image: url('../img/arrow-left.png');
+    width: 45px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pageNext {
+    background-image: url('../img/arrow-right.png');
+    width: 45px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#arrowsPagination {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4%;
+}
+
+#paginated {
+    font-size: 25px;
+    color: white;
+}
+
+
+/***fiche d'un document***/
+
+.dateFile {
+    font-size: 30px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+#return {
+    height: 150px;
+    margin-top: 5%;
+}
+
+#iconeReturn {
+    background-image: url('../img/close.png');
+    width: 128px;
+    height: 128px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#ficheFile {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.listeFiles {
+    overflow-y: auto;
+    background-color: var(--colorSecondaire);
+    --margin-top: 0;
+    width: 100%;
+    height: 1004px;
+    --padding-left: 15px;
+}
+
+.arrowsPage {
+    display: flex;
+}
+
+
+/**PDF**/
+
+#pagingPdf {
+    color: white;
+    font-size: 25px;
+}
+
+#the-canvas {
+    display: block;
+    max-width: 80%;
+    object-fit: contain
+}
+
+#return,
+#prev,
+#next {
+    cursor: pointer;
+}
+
+#next {
+    height: 31px
+}
+
+#directionArrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.page-popup-veille {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1080px;
+    height: 1920px;
+    z-index: 20000;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*********************page de mise en veille ***********************/
+
+.contener-popup-veille {
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgba(229, 229, 229, 0.95);
+    border: 5px solid #35312e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texte-popup-veille {
+    color: #35312e;
+    font-size: 37px;
+    text-align: center;
+}
+
+.compteur-popup-veille {
+    color: #35312e;
+    font-size: 70px;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+
+/*************************CSS dédié à l'animation de chargement******************/
+
+#loadAnimation {
+    visibility: hidden;
+    position: absolute;
+    background-color: rgba(224, 224, 224, 0.5);
+    height: 1920px;
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
